@@ -6,8 +6,8 @@ Implementation of the BrainAge model in a federated learning framework using Flo
 
 ### Setup
 1. Create a new virtual environment with Python 3.10.
-2. Install all requirements in *./conf/requirements.txt*
-3. Create a folder "data" in the main directory and put the .csv file inside the folder. The csv file should include the following columns:
+2. Install all requirements in *'./conf/requirements.txt'*.
+3. Create a folder "data" in the main directory and put a .csv file containing the information of subjects such as their id, age, and path to the NIFTI file inside the folder. The csv file should include the following columns:
    - *'ID'*: unique identifier of each subject/MRI scan.
    - *'Age'*: chronological age of the subject in years.
    - *'file_name'*: absolute path to the Nifti file for each subject.
