@@ -18,16 +18,16 @@ Implementation of the BrainAge model in a federated learning framework using Flo
 
 ### Running scripts
 7. Run 'server.py' on the server machine with the following command:
-
-   '''markdown
+   '''
    '''bash
    server.py project=projectName
+   '''
    
 9. Run 'client.py' on the client machines with the following command:
-
-   '''markdown
+   '''
    '''bash
    pyhton client.py --client clientName --project projectName
+   '''
 
 
 
