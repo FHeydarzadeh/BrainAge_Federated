@@ -21,15 +21,11 @@ Implementation of the BrainAge model in a federated learning framework using Flo
    
    ```bash
    server.py project=projectName
-  
    
 9. Run 'client.py' on the client machines with the following command:
    
    ```bash
    pyhton client.py --client clientName --project projectName
-   
-
-
 
 ### Note
 1. The pretrained model is a BrainAge T1 model obtained from [BrainAge T1 model](https://github.com/MIDIconsortium/BrainAge/blob/main/HBM_models/T1/model.pt). This model is inside Models folder (./models/wood/wood_T1.pt).
