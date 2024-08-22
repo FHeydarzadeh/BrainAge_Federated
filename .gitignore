@@ -85,21 +85,21 @@ ipython_config.py
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
-# .python-version
+.python-version
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
-#Pipfile.lock
+Pipfile.lock
 
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
 #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
+poetry.lock
 
 # pdm
 #   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
@@ -129,6 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*.venv/
 
 # Spyder project settings
 .spyderproject
@@ -160,3 +161,59 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+########################## Customized ###########################
+# Exclude binaries and object files
+[Bb]in/
+[Oo]bj/
+
+# Exclude user-specific files
+*.user
+*.userosscache
+*.suo
+
+# Exclude Visual Studio code-specific directories
+*.vs/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore build output directories
+bin/
+out/
+build/
+
+# Ignore Node modules
+node_modules/
+
+# Exclude NuGet Packages
+packages/
+*.nupkg
+
+# Exclude Build logs
+*.log
+*.vslog
+
+pip-wheel-metadata/
+
+# Ignore log files and other temporaries
+*.tmp
+*.bak
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+
+# Virtual environments
+Flower-3.10/
+myenv/
+
+# Ignore some folders and files
+data/
+data_repo/
+outputs/
+results/
+utils/draft_test.py
+utils/prepare_dataset.ipynb
+
