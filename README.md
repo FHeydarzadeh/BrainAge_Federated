@@ -22,7 +22,7 @@ Implementation of the BrainAge model in a federated learning framework using Flo
 
 
 
-**Note**
+### Note
 1. The pretrained model is a BrainAge T1 model obtained from [BrainAge T1 model](https://github.com/MIDIconsortium/BrainAge/blob/main/HBM_models/T1/model.pt). This model is inside Models folder (./models/wood/wood_T1.pt).
 2. Some aprameters should be passed in command line when running client.py, namely client name (--client) and project name (--project). These are essential as they are used to naming the files when saving results. Example: 'pyhton client.py --client c1 --project FedAvg --gpu')
 3. Parameter 'project' should be overwritten when running server.py (Eample: 'python server.py project=FedAvg')
