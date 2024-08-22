@@ -13,12 +13,21 @@ Implementation of the BrainAge model in a federated learning framework using Flo
    - "file_name": path to the MRI scan.
 
 ### Data Preparation
-4. Name dataset of each client as [client_name]_dataset. EX: c1_dataset.csv
+4. Name dataset of each client as [clientName]_dataset. EX: c1_dataset.csv
 5. Name centralized dataset as centralized_test_dataset.csv and centralized_val_dataset.csv
 
 ### Running scripts
-7. Run 'server.py' on the server machine.
-8. Run 'client.py' on the client machines.
+7. Run 'server.py' on the server machine with the following command:
+
+   '''markdown
+   '''bash
+   server.py project=projectName
+   
+9. Run 'client.py' on the client machines with the following command:
+
+   '''markdown
+   '''bash
+   pyhton client.py --client clientName --project projectName
 
 
 
