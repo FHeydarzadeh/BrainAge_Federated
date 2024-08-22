@@ -14,7 +14,7 @@ Implementation of the BrainAge model in a federated learning framework using Flo
 
 ### Data Preparation
 4. Name dataset of each client as *'clientName_dataset'*. EX: c1_dataset.csv
-5. Name centralized dataset as *'centralized_test_dataset.csv'* and *centralized_val_dataset.csv*.
+5. Name centralized dataset as *'centralized_test_dataset.csv'* and *'centralized_val_dataset.csv'*.
 
 ### Running scripts
 7. Run *'server.py'* on the server machine with the following command:
